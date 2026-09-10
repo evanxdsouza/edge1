@@ -1,11 +1,11 @@
 import Reveal from '../Reveal';
 
 const rules = [
-  { key: 'Yours.', body: 'Trained, fine-tuned, or distilled by you.' },
+  { key: 'Yours.', body: 'Trained by you, from scratch.' },
   { key: 'Local.', body: 'It runs on hardware you can unplug from the wall.' },
   { key: 'Wrapped.', body: 'A real interface, not a notebook you demo yourself.' },
-  { key: 'Logged.', body: '35+ hours in Hackatime, with commits to match.' },
-  { key: 'Public.', body: 'A repo, a demo anyone can try, and a devlog.' },
+  { key: 'Logged.', body: '35+ hours in Hackatime, with commits and journals.' },
+  { key: 'Public.', body: 'A repo, a demo anyone can try, and devlogs.' },
 ];
 
 export default function Rules() {
@@ -17,7 +17,7 @@ export default function Rules() {
             <p className="silk">What counts as shipped</p>
           </Reveal>
           <Reveal delay={80}>
-            <h2 className="h2">Usable. Not a demo video.</h2>
+            <h2 className="h2">Usable. With a live wrapper.</h2>
           </Reveal>
           <ul className="creed">
             {rules.map((rule, i) => (
@@ -27,7 +27,7 @@ export default function Rules() {
             ))}
           </ul>
           <Reveal delay={520}>
-            <p className="aside">An API call in a trench coat is not a model.</p>
+            <p className="aside">APIs are not allowed.</p>
           </Reveal>
         </div>
       </div>

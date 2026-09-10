@@ -1,17 +1,17 @@
 import Reveal from '../Reveal';
 
 const steps = [
-  { n: '01', head: 'RSVP', body: 'You get the rules and the start date before anyone else does.' },
+  { n: '01', head: 'RSVP', body: 'The more RSVPs the better chance of this happening.' },
   {
     n: '02',
     head: 'Build',
     body: 'Data, tokenizer, the training run that fails twice, then the wrapper.',
   },
-  { n: '03', head: 'Ship', body: 'Repo, a demo anyone can try, and the devlog.' },
+  { n: '03', head: 'Ship', body: 'Repo, a demo anyone can try, and the devlogs.' },
   {
     n: '04',
     head: 'Review',
-    body: 'A human reads it and asks you questions about your own model.',
+    body: 'A human reads it and tries it and judges your project.',
   },
   { n: '05', head: 'Unbox', body: 'A Pi 5 and an AI HAT+ land at your door. Move the model over.' },
 ];

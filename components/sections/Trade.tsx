@@ -2,10 +2,10 @@ import Reveal from '../Reveal';
 
 const you = [
   <>
-    <b>35+ hours</b>, logged in Hackatime with commits that agree with the clock.
+    <b>35+ hours</b>, logged in Hackatime with commits and journals.
   </>,
   <>
-    <b>A small language model</b> you trained, fine-tuned, or distilled yourself.
+    <b>A small language model</b> you trained yourself from scratch.
   </>,
   <>
     <b>A wrapper</b> anyone can open and use. Chat, CLI, or app.

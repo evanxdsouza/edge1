@@ -6,11 +6,11 @@ export default function Hero() {
     <section className="section hero" data-stage data-tone="dark" id="top">
       <div className="wrap scrim">
         <Reveal>
-          <p className="silk">A Hack Club YSWS · Draft</p>
+          <p className="silk">A Draft Hack Club YSWS</p>
         </Reveal>
         <Reveal delay={90}>
           <h1 className="display">
-            Make a model small enough to <em>hold</em>.
+            Make a model small enough to <em>use on a Raspberry PI</em>.
           </h1>
         </Reveal>
       </div>

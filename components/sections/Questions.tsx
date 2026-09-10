@@ -3,27 +3,27 @@ import Reveal from '../Reveal';
 const qs = [
   {
     q: 'How small is small?',
-    a: 'Small enough to run on a Pi. If it needs an H100 to answer a question, it is not Edge.',
+    a: 'An AI that is usable and does 4-5 things well. It doesn\'t have to rival Claude...',
   },
   {
     q: 'Do I need to know ML already?',
-    a: 'No. Thirty-five hours is enough time to learn it badly and then learn it properly.',
+    a: 'No. There are guides for you to learn.',
   },
   {
     q: 'Can I fine-tune something that exists?',
-    a: 'Yes. Fine-tune, distill, or start from nothing. What matters is that you did the work and can explain every part of it.',
+    a: 'Yes, but note that time will be deflated for fine tuning. Distillation is allowed with minimal deflation.',
   },
   {
     q: 'Who can do this?',
-    a: 'Hack Clubbers, 18 and under, anywhere Hack Club ships hardware. Shipping is the only entry fee.',
+    a: 'Hack Clubbers, ages 13 - 18.',
   },
   {
     q: 'When does it open?',
-    a: 'It is still a draft. RSVP is how you find out first, and how you get a slot when it does.',
+    a: 'It is still a draft. RSVP to make it happen.',
   },
   {
     q: 'What if my model is bad?',
-    a: 'Most first models are. Ship it anyway, write down why it is bad, and that counts.',
+    a: 'Doesn\'t Matter, this is a learning process.',
   },
 ];
 

@@ -6,15 +6,14 @@ export default function Signup() {
     <section className="section rsvp" data-stage data-tone="rasp" id="rsvp">
       <div className="wrap">
         <Reveal>
-          <p className="silk">Draft · opening soon</p>
+          <p className="silk">Draft - RSVP to make it happen</p>
         </Reveal>
         <Reveal delay={80}>
           <h2 className="display">Ship something small.</h2>
         </Reveal>
         <Reveal delay={160}>
           <p className="lede">
-            Edge has not opened yet. Put your name down and you will get the rules, the start
-            date, and the first slot when it does.
+            Edge has not opened yet. RSVP to show interest and get it sponsored.
           </p>
         </Reveal>
         <Reveal delay={240}>
