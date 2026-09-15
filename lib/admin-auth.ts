@@ -3,12 +3,10 @@ import { cookies } from 'next/headers';
 
 export const ADMIN_COOKIE = 'edge_admin_session';
 
+const ADMIN_PASSWORD = 'podmaster12';
+
 function secret(): string {
-  const password = process.env.ADMIN_PASSWORD;
-  if (!password) {
-    throw new Error('ADMIN_PASSWORD environment variable is not set');
-  }
-  return password;
+  return ADMIN_PASSWORD;
 }
 
 function sign(password: string): string {
@@ -16,8 +14,7 @@ function sign(password: string): string {
 }
 
 export function checkPassword(candidate: string): boolean {
-  const password = process.env.ADMIN_PASSWORD;
-  if (!password) return false;
+  const password = ADMIN_PASSWORD;
   const a = Buffer.from(candidate);
   const b = Buffer.from(password);
   if (a.length !== b.length) return false;
